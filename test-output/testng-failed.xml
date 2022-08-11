@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="none" name="Failed suite [RegressionSuite]">
+  <parameter name="browsername" value="chrome"/>
+  <listeners>
+    <listener class-name="com.Surveymonkey.Utilities.ExtentReportManager"/>
+  </listeners>
+  <test parallel="none" name="verifyLogInpageISdisplayed(failed)" preserve-order="true">
+    <classes>
+      <class name="com.Surveymonkey.testCases.verifyLogInpageISdisplayed">
+        <methods>
+          <include name="setup"/>
+          <include name="teardown"/>
+          <include name="logInpageTest"/>
+        </methods>
+      </class> <!-- com.Surveymonkey.testCases.verifyLogInpageISdisplayed -->
+      <class name="com.Surveymonkey.testCases.verifyuserLoginTest">
+        <methods>
+          <include name="setup"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- com.Surveymonkey.testCases.verifyuserLoginTest -->
+      <class name="com.Surveymonkey.testCases.verifySignupfreeButton">
+        <methods>
+          <include name="setup"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- com.Surveymonkey.testCases.verifySignupfreeButton -->
+    </classes>
+  </test> <!-- verifyLogInpageISdisplayed(failed) -->
+  <test parallel="none" name="verifyuserLoginTest(failed)" preserve-order="true">
+    <classes>
+      <class name="com.Surveymonkey.testCases.verifyLogInpageISdisplayed">
+        <methods>
+          <include name="setup"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- com.Surveymonkey.testCases.verifyLogInpageISdisplayed -->
+      <class name="com.Surveymonkey.testCases.verifyuserLoginTest">
+        <methods>
+          <include name="setup"/>
+          <include name="teardown"/>
+          <include name="verifyuserLogin"/>
+        </methods>
+      </class> <!-- com.Surveymonkey.testCases.verifyuserLoginTest -->
+      <class name="com.Surveymonkey.testCases.verifySignupfreeButton">
+        <methods>
+          <include name="setup"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- com.Surveymonkey.testCases.verifySignupfreeButton -->
+    </classes>
+  </test> <!-- verifyuserLoginTest(failed) -->
+</suite> <!-- Failed suite [RegressionSuite] -->

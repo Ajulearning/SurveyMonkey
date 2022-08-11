@@ -1,0 +1,4 @@
+# Created at 2022-08-10T08:17:53.979
+Boot Manifest-JAR contains absolute paths in classpath 'E:\Training\Selenium\SurveyMonkey\target\test-classes'
+Hint: <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
+

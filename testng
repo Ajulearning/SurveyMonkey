@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="RegressionSuite">
+<listeners>
+<listener class-name="com.Surveymonkey.Utilities.ExtentReportManager"/>
+</listeners>
+<parameter name="browsername" value="chrome"/>
+  <test  name="verifySignupfreeButton">
+    <classes>
+      <class name="com.Surveymonkey.testCases.verifySignupfreeButton"/>
+      </classes>
+  </test> 
+  <test  name="verifyLogInpageISdisplayed">
+    <classes>
+      <class name="com.Surveymonkey.testCases.verifyLogInpageISdisplayed"/>
+      </classes>
+   </test>
+    <test  name="verifyuserLoginTest">
+    <classes>
+      <class name="com.Surveymonkey.testCases.verifyuserLoginTest"/>
+      </classes>
+  </test>
+  <!-- Test -->
+</suite> <!-- RegressionSuite -->
