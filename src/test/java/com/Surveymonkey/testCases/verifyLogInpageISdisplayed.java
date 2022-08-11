@@ -34,6 +34,7 @@ public class verifyLogInpageISdisplayed extends BaseClass {
 		assertEquals(title,"SurveyMonkey - Log in","Wrong application is opened");
 		//System.out.println("Survey Monkey login page is  Opened");
 		logger.info("Survey Monkey login page is  Opened");
+		logger.info("Execution Successfull");
 		
 	}
 }
